@@ -1,0 +1,57 @@
+<html lang="en"> 
+<head> 
+   <meta charset="UTF-8"> 
+   <title>{{ head_title }}</title> 
+   {{ attach_library('portfolio/global-styling') }}
+</head> 
+<body> 
+   <header>
+       <div class="container">
+           {% if page.hero_image %} 
+               <div class="hero"> 
+                   <img src="{{ page.hero_image }}" alt="Hero Image" class="img-fluid"> 
+               </div> 
+           {% endif %} 
+           {{ page.header }} 
+       </div>
+   </header> 
+
+   <main> 
+       {% if is_front %} 
+           <header class="content-header-hero-image"> 
+               <div class="layout-container"> 
+                   {{ page.breadcrumb }} 
+                   {{ page.pre_content }} 
+               </div> 
+           </header> 
+       {% elseif page.breadcrumb %} 
+           <header class="content-header clearfix"> 
+               <div class="layout-container"> 
+                   {{ page.breadcrumb }} 
+               </div> 
+           </header> 
+       {% endif %} 
+
+       <div class="layout-container"> 
+           {{ page.pre_content }} 
+           <div class="page-content clearfix"> 
+               {{ page.highlighted }} 
+               {% if page.help %} 
+                   <div class="help"> {{ page.help }} </div> 
+               {% endif %} 
+               {{ page.content }}
+               {% if page.portfolio %}
+                   <div class="portfolio-wrapper">
+                       <h1>My Portfolio</h1>
+                       {{ page.portfolio }}
+                   </div>
+               {% endif %}
+           </div> 
+       </div> 
+   </main> 
+
+   <footer> 
+       <p>&copy; {{ "now"|date("Y") }} Harrison Ng'ang'a</p> 
+   </footer> 
+</body> 
+</html>

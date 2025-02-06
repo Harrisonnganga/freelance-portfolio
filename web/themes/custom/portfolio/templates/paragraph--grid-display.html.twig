@@ -1,0 +1,11 @@
+<div class="grid-display">  
+    <div class="grid-container">  
+        {% for item in content['#items'] %}  
+            <div class="grid-item">  
+                <h3>{{ item.content.field_title }}</h3>  
+                <div class="item-description">{{ item.content.field_description }}</div>  
+                <div class="item-image">{{ item.content.field_image }}</div>  
+            </div>  
+        {% endfor %}  
+    </div>  
+</div>

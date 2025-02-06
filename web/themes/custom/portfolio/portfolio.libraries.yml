@@ -1,0 +1,56 @@
+global-styling:
+  version: 1.0
+  css:
+    base:
+      css/base/variables.css: {}
+      css/base/elements.css: {}
+      css/base/typography.css: {}
+      css/base/print.css: {}
+    component:
+      css/components/accordion.css: {}
+      css/components/button.css: {}
+      css/components/details.css: {}
+      css/components/message.css: {}
+      css/components/form.css: {}
+      css/components/help.css: {}
+      css/components/pager.css: {}
+      css/components/tabs.css: {}
+    theme:  
+      CSS/style.css: {}  
+      CSS/font-awesome.min.css: {} 
+      CSS/service.css: {}
+      CSS/project.css: {} 
+      
+form-two-columns:
+  version: 1.0
+  css:
+    layout:
+      css/layout/form-two-columns.css: {}
+
+maintenance-page:
+  version: 1.0
+  js:
+    js/mobile.install.js: {}
+  css:
+    theme:
+      css/theme/maintenance-page.css: {}
+
+install-page:
+  version: 1.0
+  js:
+    js/mobile.install.js: {}
+  css:
+    theme:
+      css/theme/install-page.css: {}
+
+dropdown:
+  version: 1.0
+  js:
+    js/dropbutton.js: {}
+
+autocomplete:
+  version: 1.0
+  js:
+    js/autocomplete.js: {}
+
+

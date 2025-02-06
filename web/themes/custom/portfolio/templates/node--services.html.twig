@@ -1,0 +1,11 @@
+<article class="service-item">  
+    <header>  
+        <h2>{{ content.field_title }}</h2>  
+    </header>  
+    <div class="service-description">  
+        {{ content.field_description | raw }}  
+    </div>  
+    {% if content.field_icon %}  
+        <div class="service-icon">{{ content.field_icon }}</div>  
+    {% endif %}  
+</article>

@@ -1,0 +1,12 @@
+<article class="portfolio-item">  
+    <header>  
+        <h1>{{ content.field_title }}</h1>  
+    </header>  
+    <div class="portfolio-content">  
+        {{ content.field_description | raw }}  
+        {% if content.field_featured_image %}  
+            <div class="featured-image">{{ content.field_featured_image }}</div>  
+        {% endif %}  
+        {{ content.field_paragraphs }}  
+    </div>  
+</article>

@@ -1,0 +1,17 @@
+<?php
+
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function portfolio_preprocess_page(array &$variables) {
+  if (!empty($variables['node']) && $variables['node'] instanceof Node) {
+    $node = $variables['node'];
+
+    if ($node->hasField('field_hero_image') && !$node->get('field_hero_image')->isEmpty()) {
+      $image = $node->get('field_hero_image')->entity;
+      $variables['page']['hero_image'] = file_create_url($image->getFileUri());
+    }
+  }
+}

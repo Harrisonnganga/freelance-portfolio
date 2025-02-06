@@ -1,0 +1,13 @@
+<div class="image-with-text">  
+    <div class="image">  
+        {{ content.field_image }}  
+    </div>  
+    <div class="text">  
+        {% if content.field_title %}  
+            <h2>{{ content.field_title }}</h2>  
+        {% endif %}  
+        <div>  
+            {{ content.field_text | raw }}  
+        </div>  
+    </div>  
+</div>
