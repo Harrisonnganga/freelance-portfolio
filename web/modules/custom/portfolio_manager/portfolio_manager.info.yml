@@ -1,0 +1,9 @@
+name: 'Portfolio Manager' 
+type: module 
+description: 'A custom module to manage and display portfolio items.' 
+core_version_requirement: ^10 || ^11 
+package: Custom 
+dependencies: 
+ - drupal:block
+ - drupal:views
+ - drupal:node
