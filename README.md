@@ -115,10 +115,7 @@ Screenshots:
 ![Home](home.png)
 # About
 ![about page](about.png)
-
 # Contact
 ![contact](contact.png)
-
 # Portfolio
-![Portfolio](portfolio.png)
-
+![portfolio section](portfolio.png)
