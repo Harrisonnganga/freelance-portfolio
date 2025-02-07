@@ -112,8 +112,7 @@ style.css: Contains global styles applied across the website.
 Screenshots:
 
 # Homepage
-[Home page](Homepage.pdf)
-
+![Home](home.png)
 # About
 ![about page](about.png)
 
