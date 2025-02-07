@@ -6,7 +6,6 @@
   }  
   
   .portfolio-item {  
-    /* width: calc(33.33% - 30px);  */
     margin: 15px;  
     position: relative;  
     overflow: hidden;  
@@ -40,13 +39,7 @@
     margin-bottom: 10px; 
     margin-right: 15px; 
   }
-  
-  /* .front-page-portfolio .portfolio-item img {
-    width: 100%; 
-    height: auto; 
-    border-radius: 8px;
-  }
-   */
+
   .front-page-portfolio .portfolio-grid {
     display: flex;
     flex-wrap: wrap;
