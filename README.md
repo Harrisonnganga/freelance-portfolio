@@ -111,22 +111,15 @@ style.css: Contains global styles applied across the website.
 
 Screenshots:
 
+# Homepage
+[Home page](Homepage.pdf)
 
-Homepage
+# About
+![about page](about.png)
 
+# Contact
+![contact](contact.png)
 
-file:///home/harrison/Downloads/FireShot/Home.pdf
-
-About
-
-file:///home/harrison/Downloads/FireShot/about.pdf
-
-
-contact
-file:///home/harrison/Downloads/FireShot/contact.png
-
-
-Portfolio
-file:///home/harrison/Pictures/Screenshots/Screenshot%20from%202025-02-07%2000-20-11.png
-
+# Portfolio
+![Portfolio](portfolio.png)
 
