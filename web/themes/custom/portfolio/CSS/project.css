@@ -20,7 +20,7 @@
  
   .view-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .views-view-grid .views-row{
     display: flex;
