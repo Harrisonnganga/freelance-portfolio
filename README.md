@@ -75,8 +75,6 @@ Edit the custom.settings.php file and configure your database connection details
         ddev restart
         # Access the website
         ddev drush uli
-        # Enable the necessary modules
-        ddev drush en -y views views_ui field_ui block_content
         # Clear Drupal cache
         ddev drush cr
         # Rebuild the database
@@ -112,7 +110,7 @@ style.css: Contains global styles applied across the website.
 Screenshots:
 
 # Homepage
-![Home](home.png)
+![Home](Home.png)
 # About
 ![about page](about.png)
 # Contact
