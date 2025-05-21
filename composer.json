@@ -22,6 +22,9 @@
         "drupal/core-recommended": "^11.1",
         "drupal/layout_paragraphs": "^2.1",
         "drupal/pathauto": "^1.13",
+        "drupal/recaptcha": "^3.4",
+        "drupal/recaptcha_v3": "^2.0",
+        "drupal/simple_recaptcha": "^1.0@beta",
         "drush/drush": "^13.3"
     },
     "conflict": {

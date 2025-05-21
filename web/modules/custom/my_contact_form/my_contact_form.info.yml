@@ -1,0 +1,7 @@
+name: 'My Contact Form'
+type: module
+core_version_requirement: ^11
+package: Custom
+description: 'Custom contact info'
+dependencies:
+  - drupal:contact

@@ -1,0 +1,7 @@
+my_contact_form.page:
+  path: '/contact-form'
+  defaults:
+    _form: '\Drupal\my_contact_form\Form\ContactForm'
+    _title: 'Contact Us'
+  requirements:
+    _permission: 'access content'

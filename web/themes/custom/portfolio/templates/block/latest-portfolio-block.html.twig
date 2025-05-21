@@ -1,0 +1,27 @@
+{#
+/**
+ * @file
+ * Template for the latest portfolio block.
+ */
+#}
+<div class="latest-portfolio-block">
+  <h2 class="block-title">{{ 'Latest Work'|t }}</h2>
+  <div class="portfolio-items">
+    {% for node in nodes %}
+      <div class="portfolio-item">
+        <h3>{{ node.title.value }}</h3>
+        {% if node.field_featured_image.value %}
+          <div class="portfolio-image">
+            {{ content.field_featured_image }}
+          </div>
+        {% endif %}
+        <div class="portfolio-summary">
+          {{ node.body.summary|default(node.body.value) }}
+        </div>
+        <a href="{{ path('entity.node.canonical', {'node': node.id}) }}" class="read-more">
+          {{ 'View project'|t }}
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

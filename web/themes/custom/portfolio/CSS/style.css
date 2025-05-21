@@ -275,3 +275,43 @@ footer {
   text-align: center;  
   padding: 1rem;  
 }
+
+
+.latest-portfolio-block {
+  margin: 2rem 0;
+}
+
+.latest-portfolio-block .block-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.portfolio-item {
+  border: 1px solid #eee;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.portfolio-image img {
+  width: 100%;
+  height: auto;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #0077b6;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+

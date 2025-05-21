@@ -1,5 +1,6 @@
 name: 'Portfolio Manager' 
 type: module 
+base theme: claro
 description: 'A custom module to manage and display portfolio items.' 
 core_version_requirement: ^10 || ^11 
 package: Custom 

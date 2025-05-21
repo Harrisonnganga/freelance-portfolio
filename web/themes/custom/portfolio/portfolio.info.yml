@@ -6,6 +6,7 @@ base theme: claro
 
 libraries:
   - portfolio/global-styling  
+  - portfolio/my_contact_form
 
 regions:
   header: Header
@@ -28,3 +29,5 @@ regions_hidden:
 
 services:
   default: portfolio.services.yml
+
+  
